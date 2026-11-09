@@ -1,0 +1,65 @@
+.fi-body {
+    background: #f4f7f6;
+}
+
+.fi-topbar {
+    background: rgb(255 255 255 / 92%);
+    border-bottom: 1px solid #e3ebe8;
+    box-shadow: 0 2px 12px rgb(22 54 46 / 4%);
+    backdrop-filter: blur(12px);
+}
+
+.fi-sidebar {
+    background: #fff;
+    border-right: 1px solid #e3ebe8;
+}
+
+.fi-main {
+    padding-inline: clamp(1rem, 3vw, 2.5rem);
+}
+
+.fi-page {
+    width: 100%;
+    max-width: 100rem;
+    margin-inline: auto;
+    gap: 1.5rem;
+}
+
+.fi-header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e3ebe8;
+}
+
+.fi-section,
+.fi-ta-ctn,
+.fi-wi-stats-overview-stat {
+    border: 1px solid #e3ebe8;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgb(22 54 46 / 5%);
+}
+
+.fi-sidebar-item-button {
+    border-radius: 0.75rem;
+}
+
+.fi-sidebar-item-button[aria-current='page'] {
+    background: #e7f4f0;
+}
+
+.fi-btn {
+    border-radius: 0.75rem;
+}
+
+.fi-input-wrp {
+    border-radius: 0.75rem;
+}
+
+@media (max-width: 640px) {
+    .fi-main {
+        padding-inline: 1rem;
+    }
+
+    .fi-page {
+        gap: 1rem;
+    }
+}
